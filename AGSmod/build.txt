@@ -1,0 +1,4 @@
+author = tiramisu
+version = 0.1.7
+displayName = AGSmod
+homepage = https://discord.gg/ZRqph8y
