@@ -1,3 +1,5 @@
 This mod is based off of a dream I had where I created a mod which adds a new Moon Lord drop, named Bowman's Buttocks, which was a bow which did 720 damage. I still don't know how to make it droppable, so instead it's craftable.
 
 Then people in a network of Discord servers asked me to add more trash to the mod, to further our in-jokes. If this is published, I only did it to make it easier to nag my player-group to update it without having to constantly upload it through Discord.
+
+Also! It's got content based off of a webcomic named Altgenstuck. It's a Homestuck circlejerk comic. Check it out. Should be linked on the Discord server listed as this mod's homepage- it's the server for that webcomic and in extention this "mod".

@@ -9,22 +9,23 @@ namespace AGSmod.Items
 	{
 		public override void SetStaticDefaults()
 		{
-            DisplayName.SetDefault("Disgusting Dustgun");
-			Tooltip.SetDefault("Banishes the Hallow slowly, but for free, and without touching the evil.");
+            DisplayName.SetDefault("Crimson yeah");
+			Tooltip.SetDefault("Ever wonder why the Steampunker only ever sells Red Solution during the blood moon?");
 		}
 
 		public override void SetDefaults()
 		{
-			item.useTime = 11; //gotta go fast
-			item.useAnimation = 2;
+			item.useTime = 24; 
+			item.useAnimation = 24;
 			item.useStyle = 5;
 			item.noMelee = true;
 			item.value = 10000;
 			item.rare = 6;
 			item.UseSound = SoundID.Item24;
 			item.autoReuse = true;
-			item.shoot = 11; //poff
-			item.shootSpeed = 150f;
+			item.shoot = 149;
+			item.shootSpeed = 22.30f;
+			item.mana = 5;
 		}
 
 		public override void AddRecipes()

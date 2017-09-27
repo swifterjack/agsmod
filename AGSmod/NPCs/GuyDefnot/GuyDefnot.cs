@@ -105,11 +105,11 @@ namespace AGSmod.NPCs
 				case 0:
 					return "Guy Defnot";
 				case 1:
-					return "Definitely_not_HIM";
+					return "definitely_not_HIM";
 				case 2:
-					return "Not_that_Guy";
+					return "Not that guy";
 				case 4:
-					return "Definitely_not_THIRSTY";
+					return "definitely_not_THIRSTY";
 				default:
 					return "1fun337";
 			}
@@ -135,7 +135,7 @@ namespace AGSmod.NPCs
 			{
 				return "who is this lizard guy and what does he want";
 			}
-			switch (Main.rand.Next(7))
+			switch (Main.rand.Next(8))
 			{
 				case 0:
 					return "what the fuck";
@@ -149,6 +149,8 @@ namespace AGSmod.NPCs
 					return Main.LocalPlayer.name + " youre a great person but trust me youre gonna get my security questions through this";
 				case 5:
 					return "youre not going to*";
+				case 6:
+					return "can you help me somehow? im a mess of blocks phasing in and out of existence if you havent already noticed";
 				default:
 					return "i have never been so confused in my life";
 			}

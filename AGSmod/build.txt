@@ -1,4 +1,4 @@
-author = tiramisu
-version = 0.1.7
+author = swifterjackie & tiramisu
+version = 0.1.9
 displayName = AGSmod
 homepage = https://discord.gg/ZRqph8y

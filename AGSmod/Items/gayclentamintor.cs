@@ -9,22 +9,23 @@ namespace AGSmod.Items
 	{
 		public override void SetStaticDefaults()
 		{
-            DisplayName.SetDefault("Purity Dustgun");
-			Tooltip.SetDefault("Banishes the evil slowly, but for free, and without touching the Hallow.");
+            DisplayName.SetDefault("Hallowed uhhhh it shoots yeah");
+			Tooltip.SetDefault("No one's rich. Except for me. I've got an entire dollar right here.");
 		}
 
 		public override void SetDefaults()
 		{
-			item.useTime = 11; //gotta go fast
-			item.useAnimation = 2;
+			item.useTime = 24; 
+			item.useAnimation = 24;
 			item.useStyle = 5;
 			item.noMelee = true;
 			item.value = 10000;
 			item.rare = 6;
 			item.UseSound = SoundID.Item24;
 			item.autoReuse = true;
-			item.shoot = 10; //poff
-			item.shootSpeed = 150f;
+			item.shoot = 146;
+			item.shootSpeed = 22.30f;
+			item.mana = 5;
 		}
 
 		public override void AddRecipes()

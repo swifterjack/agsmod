@@ -32,7 +32,7 @@ namespace AGSmod.Items
 			item.noUseGraphic = true;
 		}
 
-		/*public override void AddRecipes()
+		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.HiveWand, 1);
@@ -40,7 +40,7 @@ namespace AGSmod.Items
 			recipe.AddTile(TileID.Pigronata);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
-		}*/
+		}
 
 		public override bool Shoot(Player player, ref Vector2 position, ref float speedX, ref float speedY, ref int type, ref int damage, ref float knockBack)
 		{
