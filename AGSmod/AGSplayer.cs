@@ -6,6 +6,10 @@ namespace AGSmod
 {
     public class AGSplayer : ModPlayer
     {
-        
+			public bool fodlepet = false;
+		public override void ResetEffects()
+		{
+			fodlepet = false;
+		}
     }
 }
